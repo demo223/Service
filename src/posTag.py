@@ -16,3 +16,10 @@ print(nlp.parse(sentence))
 print(nlp.dependency_parse(sentence))
 
 
+
+
+# 使用hanlp
+# 词性标注
+# 导入汉普
+from pyhanlp import *
+print(HanLP.segment("郑煤集团拟以非公开发行的方式进行煤炭业务整体上市，解决与郑州煤电同业竞争问题，但之后由于股市的大幅下跌导致股价跌破发行价而被迫取消整体上市。"))
